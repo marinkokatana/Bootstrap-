@@ -1,0 +1,139 @@
+
+:root {
+    --blue: #49bfff;
+    --white: #fff;
+    --gray: #333;
+}
+* {
+    box-sizing: border-box;
+}
+.py-5 {
+    padding: 70px 0 !important;
+}
+/* nav and slider - header  */
+.bg-light {
+    background: var(--blue) !important;
+}
+.navbar-brand {
+    color: var(--white) !important;
+    font-size: 2em;
+}
+.navbar-brand:hover {
+    color: var(--gray) !important;
+    transition: .4s ease;
+}
+.nav-link {
+    color: var(--white) !important;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--gray) !important;
+}
+.carousel-caption {
+    text-align: left;
+    top: 30%;
+}
+.btn-outline-primary {
+    color: var(--white);
+    border-color: var(--white);
+    border-radius: 0;
+}
+.btn-outline-primary:hover {
+    color: var(--blue);
+    background: var(--white);
+    border-color: var(--white);
+}
+/* intro */
+/*   nema :)   */
+/* counter */
+.counter i {
+    color: var(--blue);
+    font-size: 3em;
+    margin-bottom: 20px
+}
+/* plan */
+.plan .icons {
+    width: 80px;
+    height: 80px;
+    background: var(--white);
+    margin: auto;
+    border-radius: 50%;
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* packages */
+.packages .price {
+    position: relative;
+}
+.packages i {
+    color: var(--blue);
+}
+.packages .tag {
+    display: inline-block;
+    background: var(--blue);
+    padding: 5px 10px;
+    color: var(--white);
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
+
+/* enjoy the trip */
+.enjoy-the-trip {
+    background-image: linear-gradient(rgba(0, 0,0,.5), rgba(0, 0,0,.5)), url(img/slide-palms.jpg);
+    padding: 150px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* destinations */
+.destanations .col-md-3 {
+    position: relative;
+}
+.destinations .stars {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 3px;
+}
+/* contact */
+.contact {
+    color: lightgray;
+}
+.contact a {
+    color: var(--white);
+}
+.contact a:hover {
+    color: var(--blue);
+}
+.contact i {
+    color: var(--gray);
+    position: relative;
+    left: -30px;
+}
+input {
+    background: black;
+    color: white;
+    padding: 5px;
+}
+/* footer */
+footer {
+    background: #3c3b3b;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+}
+footer p {
+    margin-bottom: 0;
+}
+
+
+
+
